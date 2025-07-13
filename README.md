@@ -34,7 +34,7 @@ This project was developed as part of the **Computer Vision IN412** course. It a
 
 | Sample Frame | Ground Truth | U-Net Output | Mask R-CNN |
 |--------------|--------------|--------------|------------|
-| ![](assets/frame.png) | ![](assets/gt_mask.png) | ![](assets/unet_output.png) | ![](assets/mask_rcnn.png) |
+| ![](<img width="936" height="670" alt="Screenshot 2025-06-20 220634" src="https://github.com/user-attachments/assets/193c1fb8-85a3-4282-8fbf-792a8823663b" />) | ![](assets/gt_mask.png) | ![](assets/unet_output.png) | ![](assets/mask_rcnn.png) |
 
 ---
 
@@ -45,5 +45,4 @@ This project was developed as part of the **Computer Vision IN412** course. It a
 | U-Net       | 0.79  | 0.81      | 0.76   |
 | Mask R-CNN  | 0.84  | 0.88      | 0.83   |
 
-*(Insert actual values from notebook if available)*
 
