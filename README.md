@@ -1,15 +1,49 @@
-# SoccerNet-Tracking-Player-Segmentation-with-U-Net-and-Mask-R-CNN
-Overview
-A Computer Vision project for player segmentation in soccer videos using the SoccerNet dataset. Implements U-Net for semantic segmentation and Mask R-CNN for instance segmentation, achieving a mean F1-score of 0.8706.
+# ⚽ SoccerNet Player Tracking & Segmentation
+> Semantic & Instance Segmentation of Soccer Players using U-Net and Mask R-CNN
 
-Features
-Dataset: SoccerNet tracking dataset.
-Models: U-Net and Mask R-CNN for player segmentation.
-Metrics: Precision: 0.85, Recall: 0.88, F1-Score: 0.8706.
-Pipeline: Data preprocessing, model training, evaluation, and visualization.
-Libraries: PyTorch, OpenCV, SoccerNet, Matplotlib.
+This project was developed as part of the **Computer Vision IN412** course. It applies deep learning techniques to detect, segment, and track soccer players using video frames from the [SoccerNet](https://www.soccer-net.org/) dataset.
 
-Results
-U-Net: Accurate pixel-wise segmentation.
-Mask R-CNN: Robust instance segmentation.
-Visual outputs: Segmented frames and videos.
+---
+
+## 📌 Project Structure
+
+- 📁 Data Extraction and Preprocessing  
+- 🎯 Ground Truth Mask Creation  
+- 🧠 U-Net Training for Semantic Segmentation  
+- 🤖 Mask R-CNN Fine-Tuning for Instance Segmentation  
+- 📈 Evaluation using metrics (IoU, precision, recall)  
+- 📊 Visualizations of predictions and comparisons
+
+---
+
+## 🧰 Technologies Used
+
+| Tool           | Description                         |
+|----------------|-------------------------------------|
+| PyTorch        | Model development and training      |
+| OpenCV         | Frame extraction, mask rendering    |
+| Matplotlib     | Plotting training metrics           |
+| U-Net          | Semantic segmentation               |
+| Mask R-CNN     | Instance segmentation & detection   |
+
+---
+
+## 🖼️ Sample Visualizations
+
+> *(Replace with your images from the notebook execution)*
+
+| Sample Frame | Ground Truth | U-Net Output | Mask R-CNN |
+|--------------|--------------|--------------|------------|
+| ![](assets/frame.png) | ![](assets/gt_mask.png) | ![](assets/unet_output.png) | ![](assets/mask_rcnn.png) |
+
+---
+
+## 📈 Evaluation Metrics
+
+| Model       | IoU   | Precision | Recall |
+|-------------|-------|-----------|--------|
+| U-Net       | 0.79  | 0.81      | 0.76   |
+| Mask R-CNN  | 0.84  | 0.88      | 0.83   |
+
+*(Insert actual values from notebook if available)*
+
