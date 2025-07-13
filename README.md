@@ -28,16 +28,6 @@ This project was developed as part of the **Computer Vision IN412** course. It a
 
 ---
 
-## 🖼️ Sample Visualizations
-
-> *(Replace with your images from the notebook execution)*
-
-| Sample Frame | Ground Truth | U-Net Output | Mask R-CNN |
-|--------------|--------------|--------------|------------|
-| ![](<img width="936" height="670" alt="Screenshot 2025-06-20 220634" src="https://github.com/user-attachments/assets/193c1fb8-85a3-4282-8fbf-792a8823663b" />) | ![](assets/gt_mask.png) | ![](assets/unet_output.png) | ![](assets/mask_rcnn.png) |
-
----
-
 ## 📈 Evaluation Metrics
 
 | Model       | IoU   | Precision | Recall |
